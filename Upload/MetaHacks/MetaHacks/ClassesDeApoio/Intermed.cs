@@ -469,7 +469,7 @@ namespace MetaHacks
 
                 SmtpClient smClient = new SmtpClient("smtp.gmail.com", 587);
                 smClient.UseDefaultCredentials = false;
-                smClient.Credentials = new NetworkCredential("metahacksgiovany@gmail.com", "Kg989365#");
+                smClient.Credentials = new NetworkCredential("metahacksgiovany@gmail.com", "");
                 smClient.EnableSsl = true;
                 smClient.Send(mensagem);
                 msg = "E-mail enviado para sua caixa de entrada.\nVerifique-a para validar sua conta.";
